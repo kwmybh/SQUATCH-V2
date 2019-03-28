@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.map {
+  margin:10px;
+  border:none;
+  position: relative;
+  display: inline-block;
+
+}
+
+.map img {
+  max-width:100%;
+  display: block;
+}
+
+.box {
+  width:5%;
+  height:5%;
+  background-image: url(img/spot.png);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+}
+
+#pin-1 {
+  top:28%;
+  left:7%;
+}
+
+#pin-2 {
+  top:26%;
+  left:12.5%;
+}
+
+#pin-3 {
+  top:31%;
+  left:16.5%;
+}
+
+#pin-4 {
+  top:36%;
+  left:15%;
+}
+
+#pin-5 {
+  top:65.5%;
+  left:22.5%;
+}
+
+#pin-6 {
+  top:22%;
+  left:69.7%;
+}
+
+#pin-7 {
+  top:37%;
+  left:66.7%;
+}
+
+#pin-8 {
+  top:34%;
+  left:73.5%;
+}
+
+#pin-9 {
+  top:57.5%;
+  left:73.5%;
+}
+
+#pin-10 {
+  top:72%;
+  left:83.5%;
+}
+
+
+
+.box:hover > .pin-text {
+  display: block;
+}
+
+.pin-text {
+  position: absolute;
+  top:50%;
+  transform:translateY(-50%);
+  left:75%;
+  white-space:nowrap;
+  display: none;
+}
+
+.pin-text h3 {
+    color:white;
+    background-color: black;
+    opacity: 60%;
+    font-size: 14px;
+    padding: 0.5rem;
+}
+
+
+#bear-map, #squatch-map, #both-map {
+  background-color: white;
+  color: none;
+    border: none;
+    padding: 15px 32px;
+    display: inline-block;
+}
+
+.bearmap-row {
+  display: flex; /* equal height of the children */
+}
+
+.bearmap-col {
+  flex: 1; /* additionally, equal width */
+
+  padding: 1em;
+  border: none;
+}
+
+.bearmapbutton
+{
+  background: none;
+  height: 100px;
+}
+
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 992px) {
+  img.bearmapbutton {
+    height: 100px;
+  }
+}
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  img.bearmapbutton {
+    height: 30px;
+  }
+}

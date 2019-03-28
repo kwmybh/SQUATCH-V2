@@ -3,55 +3,12 @@ body {
     position: relative;
 }
 
-
-
-
 .container-fluid {
     padding-right: 0;
     padding-left: 0;
     padding-top: 25px;
     padding-bottom: 25px;
 }
-
-.audio-length {
-    font-family: 'Sarabun', sans-serif;
-    font-weight: 600;
-    font-size: 18pt;
-    color: #b5b577;
-    margin-left: 25px;
-}
-
-.title-audio .mediPlayer {
-    margin-right: auto;
-    margin-left: auto;
-    padding-bottom: 10px;
-}
-
-.mediPlayer {
-    padding-left: 0;
-    padding-right: 0;
-    padding-bottom: 0;
-    padding-top: 0;
-    height: 40px;
-    width: 40px;
-    background-color: #b5b577;
-    border-radius: 50%;
-}
-
-
-
-
-.full-img .audio-wrapper {
-    position: absolute;
-    top: 45%;
-    left: 20%;
-
-}
-
-.mediPlayer {
-    cursor: pointer;
-}
-
 
 
 /*start navigation*/
@@ -152,7 +109,7 @@ li a:active .dot,
 
 .center-quote h1 {
     position: relative;
-    font-family: 'Crimson Text', serif;
+    font-family: 'Sarabun', sans-serif;
     font-weight: 400;
     font-size: 20pt;
     text-align: center;
@@ -170,7 +127,7 @@ li a:active .dot,
 
 .center-quote2 h1 {
     position: relative;
-    font-family: 'Crimson Text', serif;
+    font-family: 'Sarabun', sans-serif;
     font-weight: 400;
     font-size: 20pt;
     text-align: center;
@@ -181,7 +138,7 @@ li a:active .dot,
 }
 
 .text-center{
-  font-family: 'Crimson Text', serif;
+  font-family: 'Sarabun', sans-serif;
 }
 
 /*Start video background full screen with project title*/
@@ -232,6 +189,10 @@ li a:active .dot,
 
 }
 
+/*Font Color*/
+h1, h2, h3, h4{
+  color: #cf9747;
+}
 
 .headline {
     position: absolute;
@@ -241,7 +202,7 @@ li a:active .dot,
 }
 
 .headline h1 {
-    font-family: 'Crimson', serif;
+    font-family: 'Crimson Text',serif;
     font-weight: 400;
     font-size: 70px;
     text-align: center;
@@ -250,7 +211,7 @@ li a:active .dot,
 }
 
 .headline h2 {
-    font-family: 'Crimson Text', serif;
+    font-family: 'Crimson Text',serif;
     font-weight: 400;
     font-size: 20px;
     text-align: center;
@@ -258,7 +219,7 @@ li a:active .dot,
 }
 
 .headline h3 {
-    font-family: 'Lora', serif;
+    font-family: 'Sarabun', sans-serif;
     font-weight: 400;
     font-size: 18px;
     letter-spacing: 4pt;
@@ -268,7 +229,7 @@ li a:active .dot,
 }
 
 .headline p {
-    font-family: 'Sarabun', sans-serif;
+    font-family:'Crimson',Serif;
     font-weight: 600;
     font-size: 13px;
     text-align: center;
@@ -485,7 +446,7 @@ li a:active .dot,
 
 }
 .center-text p {
-    font-family: 'Sarabun', sans-serif;
+    font-family: 'Crimson Text',serif;
     font-weight: 400;
     font-size: 1.5vw;
 
@@ -493,6 +454,7 @@ li a:active .dot,
 
 .center-text #drop-cap {
     font-family: 'Sarabun', serif;
+    color: #cf9747;
     font-weight: 400;
     font-size: 8vw;
     float: left;
@@ -654,7 +616,7 @@ li a:active .dot,
 
 .center-quote2 h1 {
     position: relative;
-    font-family: 'Crimson Text', serif;
+    font-family: 'Sarabun', sans-serif;
     font-weight: 400;
     font-size: 20pt;
     text-align: center;
@@ -683,7 +645,7 @@ li a:active .dot,
 
 .center-quote3 h1 {
     position: relative;
-    font-family: 'Crimson Text', serif;
+    font-family: 'Sarabun', sans-serif;
     font-weight: 400;
     font-size: 20pt;
     text-align: center;
@@ -724,7 +686,7 @@ li a:active .dot,
 }
 
 .center-text-wrapper h1 {
-    font-family: 'Sarabun', sans-serif;
+    font-family: 'Sarabun',sans-serif;
     font-weight: 600;
     font-size: 2vw;
 }
@@ -749,7 +711,7 @@ li a:active .dot,
 
 .center-quote h4 {
     padding-top: 25px;
-    font-family: 'Crimson Text', serif;
+    font-family: 'Sarabun', sans-serif;
     font-weight: 400;
     font-size: 1.5vw;
     color: white;
@@ -775,12 +737,12 @@ li a:active .dot,
 }
 
 iframe {
-    width: 100%;
+    width: 60%;
 
 }
 
 video {
-    width: 100%;
+    width: 60%;
 }
 
 
@@ -801,7 +763,7 @@ video {
 }
 
 .carousel-caption p {
-    font-family: 'Sarabun', serif;
+    font-family: 'Crimson Text', serif;
     font-weight: 400;
     font-size: 22px;
 
@@ -827,7 +789,7 @@ video {
 footer {
     position: relative;
     border-top-color: black;
-    background-color: #2d3436;
+    background-color: #3a3e30;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -859,7 +821,7 @@ footer {
 
 .center-footer p {
     position: relative;
-    font-family: 'Sarabun', sans-serif;
+    font-family: 'Crimson Text',serif;
     font-weight: 400;
     font-size: 13px;
     padding-left: 5px;
@@ -869,7 +831,7 @@ footer {
 
 .right-footer p {
     text-align: right;
-    font-family: 'Sarabun', sans-serif;
+    font-family: 'Crimson Text',serif;
     font-weight: 400;
     font-size: 14px;
     color: white;
